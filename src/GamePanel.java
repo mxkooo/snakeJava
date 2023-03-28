@@ -35,7 +35,7 @@ public class GamePanel extends JPanel implements ActionListener {
         timer.start();
     }
     public void paintComponents(Graphics g) {
-        super.paintComponent(g);
+        super.paintComponents(g);
         draw(g);
     }
     public void draw(Graphics g){
